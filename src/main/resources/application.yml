@@ -4,3 +4,7 @@ management:
       exposure:
         include:
           - prometheus
+
+logging:
+  level:
+    id.spring.grafana: info
